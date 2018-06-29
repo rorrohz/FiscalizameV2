@@ -1,0 +1,93 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.rodrigo.fiscalizameapk.RegistrarDenuncia">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Generar Denuncia"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Fecha" />
+
+        <EditText
+            android:id="@+id/txtFecha"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/txtPatente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:maxLength="6"
+            android:hint="Ingrese patente del bus" />
+
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="180dp"
+            android:maxLength="500"
+            android:hint="Describa la denuncia (500 caracteres)" />
+
+        <Button
+            android:id="@+id/btnFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:text="Agregar foto" />
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="340dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/img_base" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="490dp"
+            android:text="Registrar denuncia" />
+
+        <Spinner
+            android:id="@+id/spinnerEmpresas"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="100dp"
+            android:prompt="@string/seleccionaEmpresa"
+            android:entries="@array/array_empresas"
+            android:spinnerMode="dialog" />
+
+        <Spinner
+            android:id="@+id/spinnerRecorridos"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="140dp" />
+
+
+    </FrameLayout>
+</ScrollView>

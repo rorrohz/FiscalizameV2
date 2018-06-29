@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FiscalizameV2</string>
+    <string name="title_activity_registrar_denuncia">RegistrarDenuncia</string>
+    <string name="title_activity_ver_todas_denuncias">VerTodasDenuncias</string>
+    <string name="title_activity_main_denuncias">MainDenuncias</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="seleccionaEmpresa">Seleccione empresa</string>
+    <string-array name="array_empresas">
+        <item>Seleccione empresa</item>
+        <item>Alsacia</item>
+        <item>Alsacia Express</item>
+        <item>Buses Vule</item>
+        <item>Metbus</item>
+        <item>RedBus Urbano</item>
+        <item>STP Santiago</item>
+        <item>Subus Chile</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
